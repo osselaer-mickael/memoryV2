@@ -50,7 +50,7 @@ label {
 
 #theme, #level {
     width: 60%;
-    height: 4rem;
+    height: 4vh;
     margin: 2rem;
     border: 2px solid gold;
     border-radius: 1.5rem;
@@ -165,6 +165,17 @@ span {
 
     #container, #container_left, #container_right {
         height: 100vh;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #theme, #level {
+        height: 4vh;
+        margin: 1rem;
+    }
+
+    .start, #border, p, span {
+        margin: 0.5rem;
     }
 }
 
