@@ -170,11 +170,15 @@ span {
 
 @media screen and (max-height: 500px) {
     #theme, #level {
-        height: 4vh;
+        height: 7vh;
         margin: 1rem;
     }
 
-    .start, #border, p, span {
+    p {
+        padding: 0;
+    }
+
+    #start, #border, p, span {
         margin: 0.5rem;
     }
 }
