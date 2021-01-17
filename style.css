@@ -29,7 +29,7 @@ body {
 #container_left {
     width: 40%;
     height: 80vh;
-    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    background-image: url("image_card_20thCF.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -132,12 +132,53 @@ span {
     height: 30vh;
     border: 2px solid gold;
     border-radius: 1.5rem;
-    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    background-image: url("image_card_20thCF.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+#container_card {
+    width: 100%;
+    height: 78vh;
+    margin: 1rem;
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    position: relative;
+    width: 100px;
+    height: 15vh;
+    border: 2px solid gold;
+    border-radius: 1.5rem;
+    margin: 0.5rem;
+}
+
+#cinema {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: gold;
+}
+
+.nemoimg {
+    width: 100px;
+    height: 15vh;
+    display: none;
+}
+
 
 @media screen and (max-width: 1200px){
     #container {
@@ -145,13 +186,28 @@ span {
     }
 }
 
+@media screen and (max-height: 900px) {
+    body {
+        padding: 0;
+    }
+    #container, #container_left, #container_right{
+        height: 100vh;
+    }
+
+    #container_card {
+        height: 95vh;
+    }
+    body {
+        padding: 0;
+    }
+}
 @media screen and (max-width: 900px) {
     #container {
         width: 100%;
     }
 
     body {
-        padding: 5rem 0 0 0;
+        padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -165,6 +221,13 @@ span {
 
     #container, #container_left, #container_right {
         height: 100vh;
+    }
+
+    #container_card {
+        height: 95vh;
+    }
+    #container_card {
+        height: 95vh;
     }
 }
 
@@ -248,5 +311,18 @@ span {
         margin: 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    #card {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #card {
+        display: none;
+    }
+}
+
 
 
