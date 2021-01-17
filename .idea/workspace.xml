@@ -4,10 +4,7 @@
     <list default="true" id="ddeadc79-9738-44f1-8ee8-602932473159" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/george_clooney.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jennifer_lawrence.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kisspng-logo-sketch-20th-century-fox-5b44eb0d259b07.996274331531243277154 (1).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +63,7 @@
       <workItem from="1610886302342" duration="464000" />
       <workItem from="1610886773513" duration="14266000" />
       <workItem from="1610910467975" duration="233000" />
-      <workItem from="1610920291466" duration="2882000" />
+      <workItem from="1610920291466" duration="3963000" />
     </task>
     <task id="LOCAL-00001" summary="memoryV2">
       <created>1610727950369</created>
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610728350340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="memoryV2">
+      <created>1610923210353</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610923210353</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

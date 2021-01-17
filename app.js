@@ -20,8 +20,10 @@ choiceBody.addEventListener('change', (e) => {
         choiceBackGroundLeft.style.backgroundSize = "cover";
         backgroundCard.style.backgroundImage = "url('le-monde-de-nemo.jpg')";
         backgroundCard.style.border = "2px solid white";
-        divCardNemo.style.display ="flex";
-
+        divCardNemo.style.display = "flex";
+        divCardNemo.style.flexWrap = "wrap";
+        divCardNemo.style.justifyContent = "center";
+        divCardNemo.style.alignItems = "center";
 
         for(let presentationCinema of cinema) {
             presentationCinema.style.display = "none";
@@ -38,8 +40,8 @@ choiceBody.addEventListener('change', (e) => {
         for(let tittle of tittleGame) {
             tittle.style.color = "#a6c0fe";
         }
-
     }
+
     else if (choiceBody.value === 'cinema') {
         document.body.style.backgroundImage = "url('image_background.png')";
         choiceBackGroundLeft.style.backgroundImage = "url('image_card_20thCF.jpg')";
@@ -65,6 +67,8 @@ buttonStart.addEventListener('click', (e) => {
         choiceLevel.style.display = "none";
         buttonStart.style.display = "none";
         backgroundCard.style.display = "none";
+        border.style.display = "none";
+        tittleScore.style.margin = "1rem";
 
         for(let tittle of tittleGame) {
             tittle.style.display = "none";
@@ -77,10 +81,6 @@ buttonStart.addEventListener('click', (e) => {
         for(let lab of label){
             lab.innerHTML = "";
         }
-
-        border.style.display = "none";
-        tittleScore.style.margin = "2rem";
-
 
         for(let card of backCard) {
 

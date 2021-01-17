@@ -312,6 +312,12 @@ h1 {
     }
 }
 
+@media screen and (max-height: 500px){
+    #card {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 500px) {
     #card {
         width: 35%;
